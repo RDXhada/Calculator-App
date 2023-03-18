@@ -81,19 +81,20 @@ function evaluate({ currentOperand, previousOperand, operation }) {
       computation =  prev + current
       break
     case "-":
-      computation = prev - current
+      computation = (prev - current).toFixed(8)
       break
     case "*":
       computation = prev * current
       break
     case "÷":
-      computation =  (prev / current).toPrecision(6)
+      computation =  (prev / current).toFixed(8)
       break
       default: computation = "" 
       break
   }
-  //return the computation as a "double" number and have 6 digits after the floating point and convert it to string 
-  return computation.toString()
+  //return the computation as a "double" number and have 6 digits after the floating point and convert it to string
+  //floating point 
+  return parseFloat(computation).toString()
 }
 
 const INTEGER_FORMATTER = new Intl.NumberFormat("en-us", {maximumFractionDigits: 0,})
