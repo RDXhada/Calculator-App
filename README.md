@@ -13,7 +13,7 @@
 
 ### In VS code you should see both ```src``` and ```public``` files in there. Run the command :
 * terminal
-```sh
-npm start
+  ```sh
+  npm start
   ```
 
