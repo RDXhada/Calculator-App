@@ -23,4 +23,4 @@
 
 # Enjoy!
 
-#### In case you would like to access the full project click this [drive link](https://drive.google.com/drive/folders/1nDUHAsEQ9U4UUJTzxyQDle2rXHuuBxDX?usp=share_link) (Google Drive will warn you that the folder is not scanned, after donwloading it -> scan it with an ```Antivirus program.```)
+#### In case you would like to access the full project click this [drive link](https://drive.google.com/drive/folders/1nDUHAsEQ9U4UUJTzxyQDle2rXHuuBxDX?usp=share_link) (Google Drive will warn you that the folder is not scanned, after donwloading it -> scan it with an ```Antivirus program```)
