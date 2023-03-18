@@ -1,0 +1,104 @@
+/* background color and animations */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+    background-size: 300% 300%;
+    background-image: linear-gradient( -45deg, rgb(77, 161, 199) 0%, rgb(174, 160, 6) 25%, rgb(169, 56, 210) 51%, rgb(87, 14, 187) 100%);
+    animation: AnimateBG 5s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.calculator-display {
+    display: grid;
+    margin-top: 140px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+}
+
+.calculator-display>button {
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid white;
+    color: rgb(92, 88, 88);
+    margin: 1px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.153);
+    /* animation overflow and position */
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* animation hover */
+
+.calculator-display>button:before {
+    --tilt: 1px;
+    background: rgba(255, 255, 255, 0.201);
+    -webkit-clip-path: polygon( 0 0, calc(100% - var(--tilt)) 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 100%, 0 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: calc(-100% - var(--tilt));
+    position: absolute;
+    top: 0;
+    transform: translateX(var(--progress, 0));
+    transition: transform 0.15s ease;
+    width: calc(100% + var(--tilt));
+}
+
+.calculator-display>button:hover:before {
+    --progress: 100%;
+}
+
+.calculator-display>button:hover,
+.calculator-display>button:focus {
+    background-color: transparent;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.output {
+    border: 3px solid white;
+    border-radius: 25px;
+    grid-column: 1 / -1;
+    background-color: rgba(255, 255, 255, 0.153);
+    display: flex;
+    margin: 1px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 12px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 35px;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 35px;
+}
