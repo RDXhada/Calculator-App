@@ -23,4 +23,5 @@
 
 # Enjoy!
 
+#### Note that you have first be able to run the react app - Here are the first steps of [Running React apps in VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
 #### In case you would like to access the full project click this [drive link](https://drive.google.com/drive/folders/1nDUHAsEQ9U4UUJTzxyQDle2rXHuuBxDX?usp=share_link) (Google Drive will warn you that the folder is not scanned, after donwloading it -> scan it with an ```Antivirus program```)
