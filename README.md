@@ -9,4 +9,4 @@
   ```
 ### This will create you a React (App) project file. Open it from ```File > Open``` in VS Code.
  
-### After opening the project file, delete the ```public``` and ```src``` files and paste the ones from this repository.
+### Search for the project file. Delete the folders ```public``` and ```src```. Paste the ones from this Repository (https://github.com/RDXhada/Calculator-App)
