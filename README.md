@@ -1,6 +1,6 @@
 # Calculator-App
 
-## GETTING STARTED
+## GETTING STARTED - STEPS
 
 ### In Visual Studio Code run the command : 
 * terminal
@@ -9,4 +9,10 @@
   ```
 ### This will create you a React (App) project file. Open it from ```File > Open``` in VS Code.
  
-### Search for the project file. Delete the folders ```public``` and ```src```. Paste the ones from [this Repository](https://github.com/RDXhada/Calculator-App)
+### Search for the project file. Delete the folders ```public``` and ```src```. Download and Paste the ones from. [this Repository](https://github.com/RDXhada/Calculator-App)
+
+### In VS code you should see both ```src``` and ```public``` files in there. Run the command :
+```sh
+npm start
+  ```
+
