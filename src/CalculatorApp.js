@@ -78,7 +78,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   let computation = ""
   switch (operation) {
     case "+":
-      computation = prev + current
+      computation =  prev + current
       break
     case "-":
       computation = prev - current
@@ -87,12 +87,11 @@ function evaluate({ currentOperand, previousOperand, operation }) {
       computation = prev * current
       break
     case "÷":
-      computation = prev / current
+      computation =  (prev / current).toPrecision(6)
       break
       default: computation = "" 
       break
   }
-
   //return the computation as a "double" number and have 6 digits after the floating point and convert it to string 
   return computation.toString()
 }
