@@ -2,7 +2,7 @@
 
 ## GETTING STARTED
 
-### 1.In Visual Studio Code run the command : 
+### In Visual Studio Code run the command : 
 * terminal
   ```sh
   npx create-react-app calculator-app
