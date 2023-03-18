@@ -94,7 +94,7 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   }
 
   //return the computation as a "double" number and have 6 digits after the floating point and convert it to string 
-  return computation.toFixed(6).toString()
+  return computation.toString()
 }
 
 const INTEGER_FORMATTER = new Intl.NumberFormat("en-us", {maximumFractionDigits: 0,})
