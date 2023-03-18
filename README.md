@@ -17,7 +17,7 @@
   npm start
   ```
   
-### After running it should not have any errors and open a localhost 3000 webpage that should look something like this :  
+### After running the command it should not have any errors and open a localhost 3000 webpage that should look something like this :  
 
 <img width="1680" alt="Screenshot 2023-03-18 at 21 34 28" src="https://user-images.githubusercontent.com/81712614/226133636-2f0db48c-527f-4c13-abde-306ab16e524e.png">
 
