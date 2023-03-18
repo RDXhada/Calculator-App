@@ -22,3 +22,5 @@
 <img width="1680" alt="Screenshot 2023-03-18 at 21 34 28" src="https://user-images.githubusercontent.com/81712614/226133636-2f0db48c-527f-4c13-abde-306ab16e524e.png">
 
 # Enjoy!
+
+#### In case you would like to access the full project click this [drive link](https://drive.google.com/drive/folders/1nDUHAsEQ9U4UUJTzxyQDle2rXHuuBxDX?usp=share_link) (Google Drive will warn you that the folder is not scanned, after donwloading it -> scan it with an ```Antivirus program.```)
