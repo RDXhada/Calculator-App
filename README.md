@@ -7,6 +7,7 @@
   ```sh
   npx create-react-app calculator-app
   ```
+### You can run ```npm install``` for the node modules and ```npm start``` as well.
 ### This will create you a React (App) project file. Open it from ```File > Open``` in VS Code.
  
 ### Search for the project file. Delete the folders ```public``` and ```src```. Download and Paste the ones from. [this Repository](https://github.com/RDXhada/Calculator-App)
@@ -25,4 +26,4 @@
 
 #### Note that you have first be able to run the react app - Here are the first steps of [Running React apps in VS Code](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
 #### In case you would like to access the full project click this [drive link](https://drive.google.com/drive/folders/1nDUHAsEQ9U4UUJTzxyQDle2rXHuuBxDX?usp=share_link) (Google Drive will warn you that the folder is not scanned, after donwloading it -> scan it with an ```Antivirus program```)
-#### You can run ```npm install``` for the node modules and ```npm start``` as well.
+
